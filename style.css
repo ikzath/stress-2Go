@@ -41,12 +41,18 @@ body::before {
   border-radius: 10px;
 }
 
-.showcase {
-  margin-bottom: 30px;
+.leadPara {
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product3 {
+    margin-top: 30px;
   }
 }
