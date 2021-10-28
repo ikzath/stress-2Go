@@ -1,0 +1,52 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.logoHeading {
+  font-style: italic;
+  font-size: large;
+}
+
+.backgroundColor {
+  background-color: red;
+}
+
+.backgroundColor2 {
+  background-color: white;
+}
+
+.backgroundColorWhite {
+  background-color: white;
+}
+
+.fontColor {
+  color: red;
+}
+
+.navbar-brand {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-weight: 400;
+  font-size: x-large;
+}
+
+.card-text {
+  font-size: large;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.showcase {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
